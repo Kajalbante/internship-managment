@@ -1,0 +1,41 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.login-button {
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.intern-button {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.mentor-button {
+  background-color: #2196f3; /* Blue */
+  color: white;
+}
+
+.login-button:hover {
+  transform: scale(1.1);
+}
+
+.login-button:focus {
+  outline: none;
+}

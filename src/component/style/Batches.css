@@ -1,0 +1,36 @@
+.batches-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.batches-section h2 {
+  color: #333;
+}
+
+.batch-form {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.batch-form h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.batch-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.batch-form input,
+.batch-form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
